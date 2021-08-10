@@ -6,6 +6,7 @@ import {
   makeStyles,
   Typography,
 } from "@material-ui/core";
+import { Helmet } from "react-helmet-async";
 
 import TheStatsTable1 from "./TheStatsTable1";
 import TheStatsTable2 from "./TheStatsTable2";
@@ -38,6 +39,9 @@ const TheStats = () => {
 
   return (
     <Container maxWidth="xl">
+      <Helmet>
+        <title>Stats Explanation</title>
+      </Helmet>
       <article>
         <header>
           <Typography variant="h3" className={classes.titleHeader}>

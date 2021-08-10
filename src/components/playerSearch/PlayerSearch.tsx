@@ -65,7 +65,7 @@ const PlayerSearch = (): JSX.Element | null => {
   return (
     <Container maxWidth="lg">
       <Helmet>
-        <title>{`${query} - Search Results`}</title>
+        <title>{`${query} - Player Search Results`}</title>
       </Helmet>
       <Typography variant="h6" align="center" className={classes.searchTitle}>
         {title}
