@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { CssBaseline, Paper } from "@material-ui/core";
 import { makeStyles, createStyles } from "@material-ui/core/styles";
@@ -7,6 +7,7 @@ import { makeStyles, createStyles } from "@material-ui/core/styles";
 import CustomThemeProvider from "./styles/CustomThemeProvider";
 import Nav from "./components/nav/Nav";
 import { RouteFunc, pages } from "./Routes";
+import NotFoundPage from "./components/NotFoundPage";
 
 const useStyles = makeStyles(() =>
   createStyles({
@@ -35,6 +36,7 @@ const App = () => {
                 {pages.map((route, i) => {
                   return <RouteFunc key={i} {...route} />;
                 })}
+                <Route component={NotFoundPage} />
               </Switch>
             </Paper>
           </CustomThemeProvider>
