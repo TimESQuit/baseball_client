@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"name": "baseball_client",
+		"path": "."
+	},
+	{
+		"name": "baseball_api_v3",
+		"path": "../baseball_api_v3"
+	}
+],
+  "settings": {}
+}
