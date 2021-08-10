@@ -16,7 +16,7 @@ import DarkModeButton from "./DarkModeButton";
 import NavSearch from "./NavSearch";
 import { drawerPages } from "../../Routes";
 import DrawerItem from "./DrawerItem";
-import { DrawerPage } from "../../RouteTypes";
+import { DrawerPage } from "../../routeTypes";
 
 const drawerWidth = 240;
 

@@ -12,8 +12,8 @@ import IconExpandLess from "@material-ui/icons/ExpandLess";
 import IconExpandMore from "@material-ui/icons/ExpandMore";
 
 import DrawerItemLink from "./DrawerItemLink";
-import { DrawerPage } from "../../RouteTypes";
-import { IMenuItem, ISubMenu } from "../../RouteTypes";
+import { DrawerPage } from "../../routeTypes";
+import { IMenuItem, ISubMenu } from "../../routeTypes";
 
 const useStyles = makeStyles((theme) =>
   createStyles({

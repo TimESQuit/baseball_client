@@ -6,7 +6,7 @@ import PlayerSearch from "./components/playerSearch/PlayerSearch";
 import Leaders from "./components/leaders/Leaders";
 import Home from "./components/home/Home";
 import TheStats from "./components/theStats/TheStats";
-import { IPage, IPageInfo, DrawerPage } from "./RouteTypes";
+import { IPage, IPageInfo, DrawerPage } from "./routeTypes";
 
 // Single source of all distinct pages/routes in App.
 const pages: IPage[] = [
