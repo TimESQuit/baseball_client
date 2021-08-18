@@ -34,7 +34,7 @@ const HomePage = () => {
   return (
     <Container maxWidth="xl">
       <Typography variant="h2" align="center" className={classes.titleHeader}>
-        Tim's Baseball Thoughts
+        Tim's Baseball Analysis
       </Typography>
       <article>
         <Typography variant="h4">Intro</Typography>

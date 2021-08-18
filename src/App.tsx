@@ -26,7 +26,7 @@ const App = () => {
     <Router>
       <HelmetProvider>
         <Helmet>
-          <title>Tim's Baseball World</title>
+          <title>Tim's Baseball Analysis</title>
         </Helmet>
         <CssBaseline>
           <CustomThemeProvider>
