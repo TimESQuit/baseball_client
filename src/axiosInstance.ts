@@ -1,6 +1,11 @@
 import axios from "axios";
 
-const baseURL = `http://127.0.0.1:8000/api/`;
+const originURL = window.location.origin;
+
+const baseURL =
+  originURL === "http://localhost:3000"
+    ? "http://localhost:8000/api/"
+    : `${window.location.origin}/api`;
 
 const axiosInstance = axios.create({
   baseURL: baseURL,
